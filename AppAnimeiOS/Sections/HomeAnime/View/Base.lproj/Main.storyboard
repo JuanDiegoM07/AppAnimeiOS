@@ -62,13 +62,13 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DISCOVER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B04-hS-sKe">
-                                <rect key="frame" x="15" y="305" width="82.5" height="19.5"/>
+                                <rect key="frame" x="15" y="330" width="82.5" height="19.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recentry Added Episodies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5j-sN-tJf">
-                                <rect key="frame" x="20" y="329.5" width="200" height="21"/>
+                                <rect key="frame" x="20" y="354.5" width="200" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -86,7 +86,7 @@
                             <constraint firstItem="csa-Cq-UhI" firstAttribute="leading" secondItem="24h-1d-K48" secondAttribute="leading" id="CBX-y1-OMn"/>
                             <constraint firstItem="TrE-8L-IoO" firstAttribute="top" secondItem="24h-1d-K48" secondAttribute="top" id="OvL-8A-daV"/>
                             <constraint firstItem="c5j-sN-tJf" firstAttribute="top" secondItem="B04-hS-sKe" secondAttribute="bottom" constant="5" id="U5A-zE-MAf"/>
-                            <constraint firstItem="B04-hS-sKe" firstAttribute="top" secondItem="TrE-8L-IoO" secondAttribute="bottom" constant="5" id="VBU-In-4hA"/>
+                            <constraint firstItem="B04-hS-sKe" firstAttribute="top" secondItem="TrE-8L-IoO" secondAttribute="bottom" constant="30" id="VBU-In-4hA"/>
                             <constraint firstItem="24h-1d-K48" firstAttribute="trailing" secondItem="TrE-8L-IoO" secondAttribute="trailing" id="aC6-wl-KkV"/>
                             <constraint firstItem="csa-Cq-UhI" firstAttribute="top" secondItem="TrE-8L-IoO" secondAttribute="bottom" constant="90" id="chM-Wn-kts"/>
                             <constraint firstItem="24h-1d-K48" firstAttribute="bottom" secondItem="csa-Cq-UhI" secondAttribute="bottom" id="h5W-4a-qEs"/>
