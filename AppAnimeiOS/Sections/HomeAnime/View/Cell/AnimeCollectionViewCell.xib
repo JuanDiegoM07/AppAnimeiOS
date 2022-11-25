@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="eWG-Le-RbM" customClass="AnimeCollectionViewCell" customModule="AppAnimeiOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="179" height="226"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="179" height="226"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" id="SK4-Yc-U74">
+                        <rect key="frame" x="10" y="10" width="159" height="196"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="196" id="2u9-Qv-rS7"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="3Fe-Uh-wxC"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="SK4-Yc-U74" secondAttribute="trailing" constant="10" id="Dob-IP-iEn"/>
+                <constraint firstItem="SK4-Yc-U74" firstAttribute="leading" secondItem="eWG-Le-RbM" secondAttribute="leading" constant="10" id="TbS-LG-nmZ"/>
+                <constraint firstItem="SK4-Yc-U74" firstAttribute="top" secondItem="eWG-Le-RbM" secondAttribute="top" constant="10" id="vPj-j1-PQa"/>
+            </constraints>
+            <size key="customSize" width="204" height="298"/>
+            <connections>
+                <outlet property="animeImage" destination="SK4-Yc-U74" id="doe-oH-afx"/>
+            </connections>
+            <point key="canvasLocation" x="-54.347826086956523" y="85.714285714285708"/>
+        </collectionViewCell>
+    </objects>
+</document>
