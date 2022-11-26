@@ -20,7 +20,7 @@ struct AnimeInfo: Decodable {
 struct DataInfo: Decodable {
     let images: Image?
     let title: String?
-    let episodes: Int?
+    let episodes: Int!
     let status: String?
     let rating: String?
     let score: Double?

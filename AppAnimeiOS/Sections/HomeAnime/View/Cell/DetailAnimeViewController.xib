@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailAnimeViewController" customModule="AppAnimeiOS" customModuleProvider="target">
             <connections>
+                <outlet property="scoreAnimeLabel" destination="YJq-gI-cbz" id="VkB-Tk-jZ3"/>
                 <outlet property="showDurationAnimeLabel" destination="6PB-Tk-nEN" id="k3r-VS-9gv"/>
                 <outlet property="showImageAnimeLabel" destination="W4u-Z7-Xom" id="CCp-9U-lDc"/>
                 <outlet property="showRatingAnimeLabel" destination="FMF-jt-UZr" id="6uT-q0-XH7"/>
@@ -27,7 +28,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bmi-dO-niw">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="402"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="422"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6PB-Tk-nEN">
                                     <rect key="frame" x="352" y="321" width="42" height="20.5"/>
@@ -54,8 +55,14 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kmt-8f-tcB">
-                                    <rect key="frame" x="20" y="361.5" width="374" height="20.5"/>
+                                    <rect key="frame" x="20" y="381.5" width="374" height="20.5"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJq-gI-cbz">
+                                    <rect key="frame" x="20" y="349" width="48.5" height="23"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
@@ -65,17 +72,19 @@
                                 <constraint firstItem="6PB-Tk-nEN" firstAttribute="top" secondItem="W4u-Z7-Xom" secondAttribute="bottom" constant="20" id="CG7-7d-Y4Y"/>
                                 <constraint firstAttribute="bottom" secondItem="Kmt-8f-tcB" secondAttribute="bottom" constant="20" id="Cms-0Z-kSA"/>
                                 <constraint firstItem="W4u-Z7-Xom" firstAttribute="leading" secondItem="bmi-dO-niw" secondAttribute="leading" constant="20" id="G3q-O9-AVk"/>
-                                <constraint firstItem="Kmt-8f-tcB" firstAttribute="top" secondItem="6PB-Tk-nEN" secondAttribute="bottom" constant="20" id="GVF-xT-Epl"/>
+                                <constraint firstItem="Kmt-8f-tcB" firstAttribute="top" secondItem="6PB-Tk-nEN" secondAttribute="bottom" constant="40" id="GVF-xT-Epl"/>
                                 <constraint firstItem="Kmt-8f-tcB" firstAttribute="leading" secondItem="bmi-dO-niw" secondAttribute="leading" constant="20" id="JaV-O9-aud"/>
                                 <constraint firstAttribute="trailing" secondItem="Kmt-8f-tcB" secondAttribute="trailing" constant="20" id="V4K-eW-WSx"/>
                                 <constraint firstItem="FMF-jt-UZr" firstAttribute="leading" secondItem="bmi-dO-niw" secondAttribute="leading" constant="20" id="ZIQ-yU-SDc"/>
                                 <constraint firstItem="W4u-Z7-Xom" firstAttribute="top" secondItem="w9T-Te-aNP" secondAttribute="bottom" constant="20" id="dFC-fD-CY6"/>
                                 <constraint firstItem="FMF-jt-UZr" firstAttribute="top" secondItem="W4u-Z7-Xom" secondAttribute="bottom" constant="20" id="fax-3N-9HE"/>
+                                <constraint firstItem="YJq-gI-cbz" firstAttribute="leading" secondItem="bmi-dO-niw" secondAttribute="leading" constant="20" id="jHA-LB-hVD"/>
                                 <constraint firstItem="w9T-Te-aNP" firstAttribute="top" secondItem="bmi-dO-niw" secondAttribute="top" constant="52" id="kvU-GZ-wij"/>
                                 <constraint firstItem="w9T-Te-aNP" firstAttribute="leading" secondItem="bmi-dO-niw" secondAttribute="leading" constant="20" id="o3W-O9-q9t"/>
                                 <constraint firstAttribute="trailing" secondItem="w9T-Te-aNP" secondAttribute="trailing" constant="20" id="sYf-Wg-e6z"/>
                                 <constraint firstAttribute="trailing" secondItem="6PB-Tk-nEN" secondAttribute="trailing" constant="20" id="tHT-s3-rRP"/>
                                 <constraint firstAttribute="trailing" secondItem="W4u-Z7-Xom" secondAttribute="trailing" constant="20" id="uV4-sQ-Ml5"/>
+                                <constraint firstItem="YJq-gI-cbz" firstAttribute="top" secondItem="FMF-jt-UZr" secondAttribute="bottom" constant="7.5" id="wut-xo-3KH"/>
                             </constraints>
                         </view>
                     </subviews>

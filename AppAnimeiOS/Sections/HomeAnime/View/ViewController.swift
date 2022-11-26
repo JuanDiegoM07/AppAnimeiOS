@@ -26,12 +26,9 @@ class ViewController: UIViewController {
         getAnimes()
     }
     
-    
     private func configureCollectionsView() {
         animeTopColectionView.register(.init(nibName: "AnimeCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
         animeColectionView.register(.init(nibName: "SessionLaterCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "sessionCell")
-        
-        
         animeTopColectionView.delegate = self
         animeTopColectionView.dataSource = self
         
@@ -65,7 +62,7 @@ class ViewController: UIViewController {
             self.present(alertView, animated: true)
         }
     }
-
+    
 }
 
 //MARK: - UICollectionViewDataSource

@@ -49,9 +49,8 @@ class SessionLaterCollectionView: UICollectionViewCell {
             typeLastSessonLabel.backgroundColor = .purple
         }
         titleLastSessonLabel?.text = animesLater?.title
-        episodesLastSessonLabel?.text = String("Episodes: \(animesLater!.episodes!)")
+        episodesLastSessonLabel?.text = String("Episodes: \(animesLater?.episodes ?? 0)")
         durationLastSessonLabel?.text = animesLater?.duration
-        
     }
     
 }

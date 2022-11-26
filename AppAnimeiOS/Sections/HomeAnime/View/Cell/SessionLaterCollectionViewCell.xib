@@ -40,14 +40,17 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVB-bM-uLG">
-                        <rect key="frame" x="236" y="65" width="47" height="21.5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVB-bM-uLG">
+                        <rect key="frame" x="236" y="65" width="100" height="21.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="G5h-qS-G3S"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26y-ou-Gcq">
-                        <rect key="frame" x="391" y="215" width="42" height="21"/>
+                        <rect key="frame" x="261" y="210" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.46553424869999999" green="0.46553424869999999" blue="0.46553424869999999" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
                         <nil key="highlightedColor"/>
@@ -59,7 +62,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="timer" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Vf3-oJ-onB">
-                        <rect key="frame" x="361" y="216.5" width="20" height="19"/>
+                        <rect key="frame" x="231" y="211.5" width="20" height="19"/>
                     </imageView>
                 </subviews>
             </view>
@@ -72,12 +75,12 @@
                 <constraint firstItem="QRk-hp-LRn" firstAttribute="leading" secondItem="Ogo-7h-YXB" secondAttribute="trailing" constant="15" id="EWK-pq-w7J"/>
                 <constraint firstItem="CVB-bM-uLG" firstAttribute="leading" secondItem="Ogo-7h-YXB" secondAttribute="trailing" constant="15" id="Ikz-Zt-JQB"/>
                 <constraint firstItem="Ogo-7h-YXB" firstAttribute="top" secondItem="2tu-2e-1Dh" secondAttribute="top" constant="5" id="QmR-Ax-8Fh"/>
-                <constraint firstAttribute="trailing" secondItem="26y-ou-Gcq" secondAttribute="trailing" constant="20" id="XVm-vJ-DmZ"/>
+                <constraint firstItem="Vf3-oJ-onB" firstAttribute="leading" secondItem="Ogo-7h-YXB" secondAttribute="trailing" constant="10" id="VgQ-YQ-Qn8"/>
                 <constraint firstItem="CVB-bM-uLG" firstAttribute="top" secondItem="D7x-Al-830" secondAttribute="bottom" constant="20" id="e50-pB-Qne"/>
                 <constraint firstItem="26y-ou-Gcq" firstAttribute="leading" secondItem="Vf3-oJ-onB" secondAttribute="trailing" constant="10" id="fDA-Tz-pue"/>
-                <constraint firstAttribute="bottom" secondItem="26y-ou-Gcq" secondAttribute="bottom" constant="20" id="fbS-Ob-QUg"/>
+                <constraint firstAttribute="bottom" secondItem="26y-ou-Gcq" secondAttribute="bottom" constant="25" id="fbS-Ob-QUg"/>
                 <constraint firstItem="D7x-Al-830" firstAttribute="top" secondItem="2tu-2e-1Dh" secondAttribute="top" constant="25" id="htj-DY-C8s"/>
-                <constraint firstAttribute="bottom" secondItem="Vf3-oJ-onB" secondAttribute="bottom" constant="20" id="waZ-eY-uoT"/>
+                <constraint firstAttribute="bottom" secondItem="Vf3-oJ-onB" secondAttribute="bottom" constant="25" id="waZ-eY-uoT"/>
             </constraints>
             <size key="customSize" width="478" height="328"/>
             <userDefinedRuntimeAttributes>
